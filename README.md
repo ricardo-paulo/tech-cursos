@@ -98,7 +98,7 @@ techcursos/
     | Campo | Tipo | Observação |
     | --- | --- | --- |
     | id_curso | INT | PK |
-    | if_categoria | INT | FK |
+    | id_categoria | INT | FK |
     | nome | VARCHAR(150) | Nome do curso |
     | descricao | TEXT | Descrição |
     | carga_horaria | INT | Horas |
