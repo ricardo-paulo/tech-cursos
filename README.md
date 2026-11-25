@@ -34,31 +34,31 @@ techcursos/
 │   └── database.py
 │
 ├── models/
-│   ├── usuario.py
-│   ├── curso.py
-│   ├── aula.py
-│   └── matricula.py
+│   ├── user.py
+│   ├── course.py
+│   ├── class.py
+│   └── registry.py
 │
 ├── repositories/
-│   ├── usuario_repository.py
-│   ├── curso_repository.py
-│   └── matricula_repository.py
+│   ├── user_repository.py
+│   ├── course_repository.py
+│   └── registry_repository.py
 │
 ├── services/
-│   ├── usuario_service.py
-│   ├── curso_service.py
-│   └── matricula_service.py
+│   ├── user_service.py
+│   ├── course_service.py
+│   └── registry_service.py
 │
 ├── controllers/
 │   ├── login_controller.py
-│   ├── curso_controller.py
-│   └── aluno_controller.py
+│   ├── course_controller.py
+│   └── student_controller.py
 │
 ├── views/
 │   ├── login/
 │   ├── home/
-│   ├── cursos/
-│   └── aluno/
+│   ├── courses/
+│   └── student/
 │
 ├── resources/
 │   ├── icons/
@@ -158,5 +158,5 @@ AULA       1 ─── N PROGRESSO
 - [x]  Criar estrutura base de pastas.
 - [x]  Criar venv e instalar bibliotecas necessárias.
 - [x]  Fazer primeiro commit.
-- [ ]  Criar canal no YouTube para hospedagem dos vídeos não listados.
-- [ ]  Criar e configurar projeto no Supabase.
+- [x]  Criar canal no YouTube para hospedagem dos vídeos não listados.
+- [x]  Criar e configurar projeto no Supabase.
