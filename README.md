@@ -21,25 +21,11 @@ O **Tech Cursos** é uma aplicação desktop desenvolvido para atuar como uma pl
 | Versionamento | Git + Github |
 | Ambiente | venv |
 
-## Sessão do usuário
-
-Após o login, a aplicação guarda somente o refresh token no cofre nativo do
-sistema (Gerenciador de Credenciais do Windows ou Secret Service/KWallet no
-Linux). Ao iniciar, a sessão é renovada e validada pelo Supabase antes de abrir
-a área autenticada. Se um cofre seguro não estiver disponível, a aplicação não
-salva credenciais em arquivo nem mantém uma sessão sem validação.
-
-O token de acesso do Supabase expira conforme a configuração do projeto
-(normalmente após 1 hora) e é renovado automaticamente enquanto a aplicação
-está aberta. A sessão persistente não tem um prazo fixo definido pelo código:
-ela pode ser encerrada pelo usuário, revogada ou limitada pelas políticas de
-sessão configuradas no Supabase.
-
 # Estrutura
 
 ## Estrutura de Pastas
 
-```
+```markdown
 techcursos/
 │
 ├── main.py
@@ -164,6 +150,22 @@ CURSO 1 ─── N AULA
 MATRICULA 1 ─── N PROGRESSO
 AULA       1 ─── N PROGRESSO
 ```
+
+# Features
+
+## Sessão do usuário
+
+Após o login, a aplicação guarda somente o refresh token no cofre nativo do
+sistema (Gerenciador de Credenciais do Windows ou Secret Service/KWallet no
+Linux). Ao iniciar, a sessão é renovada e validada pelo Supabase antes de abrir
+a área autenticada. Se um cofre seguro não estiver disponível, a aplicação não
+salva credenciais em arquivo nem mantém uma sessão sem validação.
+
+O token de acesso do Supabase expira conforme a configuração do projeto
+(normalmente após 1 hora) e é renovado automaticamente enquanto a aplicação
+está aberta. A sessão persistente não tem um prazo fixo definido pelo código:
+ela pode ser encerrada pelo usuário, revogada ou limitada pelas políticas de
+sessão configuradas no Supabase.
 
 # Tarefas
 
