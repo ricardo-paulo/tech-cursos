@@ -1,0 +1,231 @@
+QMainWindow, QWidget#RootPage {
+    background-color: #FDF8F6;
+    color: #18181B;
+    font-family: "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QWidget#ScrollContent {
+    background-color: transparent;
+}
+
+QFrame#TopBar, QFrame#SubTopBar {
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #F0E6E8;
+}
+
+QPushButton#NavPill {
+    background-color: transparent;
+    color: #6B7280;
+    border: none;
+    border-radius: 18px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+QPushButton#NavPill:hover {
+    background-color: #FAF2F4;
+    color: #18181B;
+}
+
+QPushButton#NavPill[active="true"] {
+    background-color: #FCE8F1;
+    color: #B80D57;
+    font-weight: 600;
+}
+
+QPushButton#BackBtn {
+    background-color: transparent;
+    color: #18181B;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 10px;
+}
+
+QPushButton#BackBtn:hover {
+    background-color: #F6ECEE;
+}
+
+QPushButton#HeartBtn {
+    background-color: transparent;
+    border: none;
+    color: #B80D57;
+    font-size: 22px;
+    padding: 4px 8px;
+}
+
+QFrame#SearchBar {
+    background-color: #FFFFFF;
+    border: 1px solid #F0E6E8;
+    border-radius: 26px;
+}
+
+QLineEdit#SearchInput {
+    background-color: transparent;
+    border: none;
+    color: #18181B;
+    font-size: 15px;
+    padding: 4px 6px;
+}
+
+QLineEdit#FormInput {
+    background-color: #FFFFFF;
+    border: 1.5px solid #E9DCE0;
+    border-radius: 12px;
+    padding: 11px 14px;
+    font-size: 14px;
+    color: #18181B;
+}
+
+QLineEdit#FormInput:focus {
+    border-color: #B80D57;
+}
+
+QPushButton#FilterBtn {
+    background-color: #FCE8F1;
+    color: #B80D57;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 700;
+    min-width: 36px;
+    max-width: 36px;
+    min-height: 36px;
+    max-height: 36px;
+}
+
+QPushButton#FilterBtn[active="true"] {
+    background-color: #B80D57;
+    color: #FFFFFF;
+}
+
+QFrame#CourseCard {
+    background-color: #FFFFFF;
+    border: 1px solid #F0E6E8;
+    border-radius: 18px;
+}
+
+QFrame#CourseCard:hover {
+    border: 1.5px solid #DFC4CC;
+    background-color: #FFFCFD;
+}
+
+QPushButton#PrimaryBtn {
+    background-color: #B80D57;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+    padding: 13px 28px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+QPushButton#PrimaryBtn:hover {
+    background-color: #990947;
+}
+
+QPushButton#SecondaryBtn {
+    background-color: #F6ECEE;
+    color: #4B4547;
+    border: none;
+    border-radius: 24px;
+    padding: 13px 28px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+QPushButton#SecondaryBtn:hover {
+    background-color: #ECDCE0;
+}
+
+QPushButton#WatchBtn {
+    background-color: #FCE8F1;
+    color: #B80D57;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+QPushButton#WatchBtn:hover {
+    background-color: #B80D57;
+    color: #FFFFFF;
+}
+
+QFrame#AccordionCard {
+    background-color: #FFFFFF;
+    border: 1px solid #F0E6E8;
+    border-radius: 14px;
+}
+
+QPushButton#AccordionTrigger {
+    background-color: transparent;
+    color: #18181B;
+    border: none;
+    padding: 15px 18px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QFrame#CheckoutShell, QFrame#ConfirmCard, QFrame#LoginCard {
+    background-color: #FFFFFF;
+    border: 1px solid #F0E6E8;
+    border-radius: 22px;
+}
+
+QFrame#SelectableCard {
+    background-color: #FFFFFF;
+    border: 1.5px solid #F0E6E8;
+    border-radius: 16px;
+}
+
+QFrame#SelectableCard:hover {
+    border-color: #D9B7C3;
+}
+
+QFrame#SelectableCard[selected="true"] {
+    border: 1.5px solid #B80D57;
+    background-color: #FFFBFD;
+}
+
+QFrame#SoftSummaryBox {
+    background-color: #FCF7F5;
+    border: 1px solid #F2E7EA;
+    border-radius: 18px;
+}
+
+QFrame#ModulesContainer {
+    background-color: #FFFFFF;
+    border: 1px solid #F0E6E8;
+    border-radius: 18px;
+}
+
+QProgressBar#CourseProgress {
+    background-color: #C7C9CE;
+    border: none;
+    border-radius: 5px;
+    min-height: 10px;
+    max-height: 10px;
+}
+
+QProgressBar#CourseProgress::chunk {
+    background-color: #D9268B;
+    border-radius: 5px;
+}
+
+QCheckBox {
+    spacing: 8px;
+    color: #374151;
+    font-size: 13px;
+}
